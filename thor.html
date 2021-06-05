@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!--Imports a model-viewer JavaScript code -->
+<!--It helps to handle how the 3D Object would be displayed -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body>
+  
+  <div class="thor">
+   
+    <!--model-viewer src="t/source/T.glb" alt="thor"  camera-controls autoplay="true" environment-image="b.png" id="model"></model-viewer-->
+    <video autoplay muted loop id="video-bg">
+      <source src="Din.mp4" type="video/mp4"/>
+    </video>
+      <div id="thor">
+      
+    </div>
+   <model-viewer src="Dinosaur.glb" alt="thor"  camera-controls autoplay="true" environment-image="b.png" id="model" onclick="start()"></model-viewer>
+
+
+  </div>
+  <script src="din.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+
+#model
+{
+  width:40vw;
+  height:70vh;
+  padding-top:37vh;
+  margin-left: 52vw;
+  position: relative;
+  border:5px solid transparent;
+}
+
+/*body
+{
+  background-image: url('3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}*/
+
+
+#video-bg{
+  position: absolute;
+  z-index: -1;
+  border:2px solid black;
+ 
+}
+
+.message{
+  border:2px solid red;
+  font-size: 210px;
+  font-style: bold;
+  color:#952A18;
+  background-color: ghostwhite;
+  position: absolute;
+  top:0;
+  z-index: 200;
+  
+}
